@@ -1,13 +1,11 @@
 {
   "name": "with-typescript",
-  "homepage": "https://anastasiiakonovalenko.github.io/develops_today_next_testwork",
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "type-check": "tsc",
-    "deploy": "gh-pages -d build"
+    "type-check": "tsc"
   },
   "dependencies": {
     "@types/styled-components": "^5.0.1",
