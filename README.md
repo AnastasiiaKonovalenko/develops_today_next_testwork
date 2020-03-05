@@ -1,5 +1,5 @@
 # TypeScript Next.js
-)
+ [DEMO](https://anastasiiakonovalenko.github.io/Binary_Studio_JS_cookBook)
 
 ## Instructions to run locally:
 - Clone the repo.
