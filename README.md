@@ -1,3 +1,14 @@
+# TypeScript Next.js
+)
+
+## Instructions to run locally:
+- Clone the repo.
+- Run npm install (or just npm i)
+- Run npm start.
+
+
+
+
 # TypeScript Next.js example
 
 This is a really simple project that shows the usage of Next.js with TypeScript.
