@@ -5,6 +5,7 @@ import { NextPage } from "next";
 import Layout from "../components/Layout";
 import { Main, Input, PostsList, Article, ContainerInput, H2 } from "../components/styleComponents";
 import { PostInterface, Posts } from "../interfaces";
+const newPost = "addPost";
 
 const Home: NextPage<Posts> = (props: Posts) => {
   const [query, setQuery] = useState("");
@@ -24,10 +25,8 @@ const Home: NextPage<Posts> = (props: Posts) => {
           />
 
           <article>
-            <Link href={`/AddPost`}>
-              <a>
-                <span>Add Post</span>
-              </a>
+            <Link href={`/${newPost}`} as="/posts/new">
+              <a>Add Post</a>
             </Link>
           </article>
         </ContainerInput>
@@ -37,7 +36,7 @@ const Home: NextPage<Posts> = (props: Posts) => {
           <PostsList>
             {props.posts.slice(-3).map((post: PostInterface) => (
               <Article key={post.id}>
-                <Link href={`/post?id=${post.id}`}>
+                <Link href={`/post?id=${post.id}`} as={`/posts/${post.id}`}>
                   <a>
                     <h1>{post.title}</h1>
                   </a>
