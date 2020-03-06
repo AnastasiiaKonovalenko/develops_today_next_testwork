@@ -1,5 +1,5 @@
 # TypeScript Next.js
- [DEMO](https://with-typescript-app.nastya2203.now.sh/)
+ [DEMO](https://with-typescript-app-ten.now.sh/)
 
 ## Instructions to run locally:
 - Clone the repo.
