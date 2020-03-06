@@ -4,7 +4,8 @@
 ## Instructions to run locally:
 - Clone the repo.
 - Run npm install (or just npm i)
-- Run npm run dev
+- Run npm run build
+- Run npm run start
 
 
 
